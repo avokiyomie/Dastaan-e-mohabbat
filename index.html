@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dastaan-e-Mohabbat — Ahmed</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Noto+Naskh+Arabic:wght@400;600&display=swap');
+:root{--bg:#17121b;--paper:#f2e5cf;--paper2:#e7d3b5;--ink:#332631;--purple:#6e4b78;--plum:#39263e;--gold:#b89568;--cream:#fff5e5}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Cormorant Garamond",serif}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.16;background-image:radial-gradient(#fff 1px,transparent 1px);background-size:7px 7px;z-index:5}
+nav{position:fixed;left:0;top:0;bottom:0;width:220px;background:#211722ee;color:var(--cream);padding:28px 18px;z-index:10;border-right:1px solid #9b765055}
+nav h2{font-family:"Noto Naskh Arabic";font-size:27px;text-align:center;color:#ead1a7;margin:0}
+nav .latin{text-align:center;letter-spacing:2px;font-size:12px;color:#b99caf;margin-bottom:28px}
+nav a{display:block;color:#eadfce;text-decoration:none;padding:12px 14px;border:1px solid transparent;border-radius:8px;font-size:16px}
+nav a:hover{border-color:#a98a67;background:#6e4b7833}
+main{margin-left:220px}
+section{min-height:100vh;padding:80px 7%;display:flex;align-items:center;justify-content:center;position:relative}
+.hero{background:linear-gradient(#241a28aa,#241a28cc),url("https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=1800&q=85") center/cover fixed;color:var(--cream);text-align:center}
+.hero .box{max-width:900px}
+.urdu{font-family:"Noto Naskh Arabic";font-size:clamp(42px,8vw,92px);color:#f2d9ac;line-height:1.15}
+h1{font-size:clamp(18px,3vw,30px);font-weight:400;letter-spacing:7px;margin:10px 0 30px;color:#dfc39b}
+.subtitle{font-size:24px;font-style:italic}
+button{background:var(--purple);color:white;border:1px solid #c5a47b;padding:13px 26px;border-radius:30px;font-family:inherit;font-size:17px;cursor:pointer}
+.paper{background:linear-gradient(135deg,var(--paper),var(--paper2));box-shadow:0 18px 55px #0008;border:1px solid #b89568;padding:45px;max-width:950px;width:100%;position:relative}
+.paper:before{content:"";position:absolute;inset:12px;border:1px solid #a9876338;pointer-events:none}
+.paper h2{text-align:center;color:var(--purple);font-size:42px;font-weight:500;margin-top:0}
+.letter{font-size:21px;line-height:1.75;max-width:760px;margin:auto}
+.quote{border-left:3px solid var(--purple);padding:15px 22px;margin:25px 0;font-style:italic;background:#fff9ee99}
+.prayer{font-family:"Noto Naskh Arabic";font-size:23px;line-height:2;text-align:center;color:#553b5d}
+.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:35px}
+.item{background:#fff8e9aa;padding:22px;text-align:center;border:1px solid #b8956866}
+.item b{color:var(--purple);font-size:21px}.item p{font-size:17px}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.memory{height:190px;background:linear-gradient(135deg,#6e4b78,#c6a4c9);display:flex;align-items:center;justify-content:center;color:white;font-size:22px;text-align:center;padding:20px}
+.secret{text-align:center}.secret input{padding:14px;border:1px solid #9d805f;background:#fff8ec;border-radius:8px;font-family:inherit;font-size:17px}.hidden{display:none}
+.qr{text-align:center}.qr img{width:220px;max-width:70%;background:white;padding:12px}
+footer{text-align:center;padding:40px;background:#17121b;color:#d9c4a4;font-size:18px}
+@media(max-width:760px){nav{position:sticky;top:0;bottom:auto;width:100%;height:auto;display:flex;flex-wrap:wrap;justify-content:center;padding:8px;gap:3px}nav h2,nav .latin{display:none}nav a{font-size:13px;padding:8px}main{margin-left:0}.hero{min-height:calc(100vh - 55px)}section{padding:55px 18px}.paper{padding:28px 20px}.timeline,.gallery{grid-template-columns:1fr}.letter{font-size:19px}}
+</style>
+</head>
+<body>
+<nav>
+<h2>داستانِ محبت</h2><div class="latin">DAASTAAN-E-MOHABBAT</div>
+<a href="#home">⌂ Home</a><a href="#letter">✉ A Letter</a><a href="#duas">☾ In My Duas</a><a href="#story">♡ Our Story</a><a href="#memories">❀ Memories</a><a href="#secret">♧ Secret Letter</a><a href="#qr">▣ Your Gift</a>
+</nav>
+
+<main>
+<section id="home" class="hero"><div class="box">
+<div class="urdu">داستانِ محبت</div>
+<h1>DAASTAAN-E-MOHABBAT</h1>
+<p class="subtitle">A little story, written softly — for Ahmed.</p>
+<p>✦ ❦ ✦</p>
+<button onclick="document.querySelector('#letter').scrollIntoView()">Open the story ♡</button>
+</div></section>
+
+<section id="letter"><div class="paper"><h2>♡ A Letter for You</h2><div class="letter">
+<p>Ahmed,</p>
+<p>If love were an old Pakistani story, I think ours would begin quietly — somewhere between the golden hush of evening, the fragrance of chai, and a sky turning purple over the rooftops.</p>
+<p>It would not need grand words. It would live in the little things: in remembering you, in wondering how your day went, and in the quiet happiness of knowing that somewhere in this world, there is you.</p>
+<div class="quote">“If I could leave one sentence in the margins of your life, it would be this: I am grateful that my heart found you.”</div>
+<p>I hope you always know that you are someone I want to see happy, someone I want to see protected, and someone I quietly pray good things for.</p>
+<p>So let this be our little tale — not hurried, not perfect, just tender. A love remembered in quiet duas, moonlit evenings, and the kind of affection that feels a little like coming home.</p>
+<p style="text-align:right;color:#6e4b78;font-size:25px">— always, with love ♡</p>
+</div></div></section>
+
+<section id="duas"><div class="paper"><h2>☾ In My Duas</h2><div class="prayer">
+<p>احمد،</p>
+<p>اللہ تمہیں ہمیشہ اپنی حفاظت میں رکھے۔</p>
+<p>تمہاری ہر دعا قبول فرمائے،</p>
+<p>تمہارے دل کو سکون دے،</p>
+<p>تمہارے راستوں میں آسانیاں اور برکت رکھے،</p>
+<p>اور تمہیں ہمیشہ خوش رکھے۔</p>
+<p>آمین۔ ♡</p>
+</div><p class="letter" style="text-align:center">May Allah protect your heart, guide your steps, ease your worries, and fill your life with barakah, peace, success, and happiness.</p></div></section>
+
+<section id="story"><div class="paper"><h2>♡ Our Story</h2><div class="quote" style="margin-bottom:28px;text-align:center;font-size:22px">
+<strong>Chapter I — The Sugar</strong><br>
+January 07, 2026<br>
+<span style="font-size:18px">He asked me for sugar. I never knew that such a small request could become the sweetest beginning.</span>
+</div><div class="timeline">
+<div class="item"><b>07 January 2026</b><p>It began with something as simple as a request for sugar.</p><small>“A little sugar. A simple question. One unforgettable beginning.”</small></div>
+<div class="item"><b>Little Things</b><p>Small moments began carrying big meanings.</p></div>
+<div class="item"><b>A Safe Place</b><p>You became someone my heart remembered.</p></div>
+<div class="item"><b>The Next Chapter</b><p>And perhaps the best pages are still unwritten.</p></div>
+</div></div></section>
+
+<section id="memories"><div class="paper"><h2>❀ Memories</h2><p style="text-align:center;font-size:19px">A little gallery waiting for your photographs.</p><div class="gallery">
+<div class="memory">Your favorite memory<br>♡</div><div class="memory">A day worth remembering<br>✦</div><div class="memory">A place we love<br>☾</div>
+<div class="memory">A silly moment<br>❦</div><div class="memory">Something that reminds me of you<br>♡</div><div class="memory">More memories to come…</div>
+</div></div></section>
+
+<section id="secret"><div class="paper secret"><h2>♧ A Secret Letter</h2><p style="font-size:20px">There is something here meant only for you.</p>
+<input id="word" placeholder="Enter the special word"><br><br><button onclick="unlock()">Open</button>
+<div id="secretText" class="hidden quote" style="margin-top:28px">Ahmed, if you found this, then you looked a little closer. ♡ You are loved more quietly and more deeply than these pages could ever explain. Whatever tomorrow brings, I hope you carry this little truth with you.</div>
+</div></section>
+
+<section id="qr"><div class="paper qr"><h2>▣ Your Little Gift</h2><p style="font-size:20px">Scan this when the website is hosted to open the story from anywhere.</p>
+<img src="qr_code.png" alt="QR code">
+<p>Replace the QR destination with your final website URL before sharing it.</p>
+<button onclick="window.print()">Print this gift</button></div></section>
+<footer>Made especially for Ahmed · داستانِ محبت · with a touch of purple ♡</footer>
+</main>
+<script>
+function unlock(){const v=document.getElementById('word').value.trim().toLowerCase();document.getElementById('secretText').classList.toggle('hidden',v!=='ahmed');if(v!=='ahmed') alert('That little secret needs the right word. ♡')}
+</script>
+</body></html>
